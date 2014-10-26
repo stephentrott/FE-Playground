@@ -1,0 +1,34 @@
+
+body	{	/* font anti-aliasing & smoothing */		
+			text-rendering: optimizeLegibility; 
+			-webkit-font-smoothing: antialiased;	}
+
+h1, h2, h3, h4, h5, h6, p {	font-family: 'Roboto';	
+							line-height: 1.2;
+							text-rendering: optimizeLegibility; 
+							color: #222222;						}
+
+h1  {	font-size: 6em;
+		font-weight: 500;
+		font-style: normal;	
+		margin-top: 0px;
+		margin-bottom: 20px;	}
+
+h2  {	font-size: 2.2em;
+		font-weight: 300;
+		font-style: normal;	
+		margin-top: 0px;
+		margin-bottom: 20px;	}
+
+h3  {	font-size: 1.5em;
+		font-weight: 400;
+		font-style: italic;
+		margin-top: 0px;
+		margin-bottom: 10px;	}
+
+p 	{	font-size: 1em;
+		font-weight: 300;
+		font-style: normal;
+		margin-top: 0px;
+		margin-bottom: 20px;
+		line-height: 1.9;		}

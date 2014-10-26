@@ -1,0 +1,14 @@
+@import 'typography.css';
+
+html {background-image: url(skate.jpg);
+}
+body {margin:10px}
+
+/* Drop to 500px content grid below 1200px */
+
+@media (min-width:600px) and (max-width:1200px)	{	}	
+
+/* Switch to responsive below 600px */
+
+@media (max-width:600px)	{	}
+

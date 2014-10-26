@@ -1,0 +1,91 @@
+html { 
+  background: url(images/whiterock.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  opacity: 1;
+}
+
+body {
+	margin: 15px;
+}
+
+hr {
+	border: none;
+    height: 2px;
+    background-color: black;
+    margin: 10px 0px 0px 0px;
+
+}
+/*nav styling*/
+.nav img { 
+	width: 60px;
+	display: inline-block;
+}
+.nav h1 {
+	vertical-align: super;
+	display: inline-block;
+	font-family: 'Bitter', serif;
+	font-size: 28px;
+	line-height: .9;
+	padding-left: 10px;
+	margin: 0px;
+}
+.nav h1 p {
+	display: inline-block;
+	font-size: 16px;
+	font-weight: 100;
+	background: transparent;
+
+}
+.hamburger {
+	float: right;
+	margin-top: 20px;
+}
+
+.hamburger img {
+	width: 35px;
+}
+
+/*type jig on nav for large screens*/
+@media screen and (min-width: 500px) {
+	.nav h1 {
+		vertical-align: top;
+		padding-top: 20px;
+		font-size: 34px;
+	}
+	h1 br {
+		display: none;
+	}
+}
+
+.content p {
+	display: block;
+	line-height: 2;
+	font-family: 'Bitter', serif;
+	font-weight: 400;
+	font-size: 18px;
+}
+
+.content h1 {
+	border: none;
+	padding: 10px 0px 10px 15px;
+	background-color: black;
+	color: white;
+	font-family: 'Bitter', serif;
+	font-size: 28px;
+	line-height: .9;
+	margin-top: 20px;
+}
+
+@media screen and (min-width: 730px) {
+	.content p {
+		width: 700px;
+		display: block;
+		line-height: 2;
+		font-family: 'Bitter', serif;
+		font-weight: 400;
+		font-size: 18px;
+	}
+}

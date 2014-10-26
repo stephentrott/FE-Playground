@@ -1,0 +1,96 @@
+hmtl	{	background-image: url('paper.gif');	}
+
+body	{	background: lightgrey;	
+			margin-top: 40px;
+			margin-bottom: 120px;
+			/* font anti-aliasing & smoothing */		
+			text-rendering: optimizeLegibility; 
+			-webkit-font-smoothing: antialiased;	}
+
+h1, h2, h3, h4, h5, h6, p {	font-family: 'Roboto';	
+							line-height: 1.2;
+							text-rendering: optimizeLegibility; 
+							color: #222222;						}
+
+h1  {	font-size: 6em;
+		font-weight: 500;
+		font-style: normal;	
+		margin-top: 0px;
+		margin-bottom: 20px;	}
+
+h2  {	font-size: 2.2em;
+		font-weight: 300;
+		font-style: normal;	
+		margin-top: 0px;
+		margin-bottom: 20px;	}
+
+h3  {	font-size: 1.5em;
+		font-weight: 400;
+		font-style: italic;
+		margin-top: 0px;
+		margin-bottom: 10px;	}
+
+p 	{	font-size: 1em;
+		font-weight: 300;
+		font-style: normal;
+		margin-top: 0px;
+		line-height: 1.9;		}
+
+/* Column sizing & floating */
+
+.col-1	{	width: 500px;
+			float: left;
+			padding-right: 60px		}
+
+.col-2	{	display:-webkit-box; 
+			width: 500px;			}
+
+.grid-container {	width: 1120px;
+					margin: auto;	}
+
+.part-1 {	display: inline-block;
+			width: inherit;			}
+
+#fold-1	{	background: azure;
+			padding: 0px 20px 0px 20px;	}
+
+#fold-1 h2	{	width: 75%;			}
+
+
+/* Drop to 500px content grid below 1200px */
+
+@media (min-width: 600px) and (max-width: 1200px)	{	body {	margin-top: 20px			}
+														h1  {	font-size: 5em;
+																font-weight: 500;
+																font-style: normal;	
+																line-height: 1.2;
+																margin-top: 20px;			}
+														.grid-container {	width: 500px;	}
+
+														#fold-1 h2	{	font-size: 2em;
+																		width: 100%;		}
+													}	
+
+/* Switch to responsive below 600px */
+
+@media (max-width: 600px)	{	.grid-container {	max-width: 90%			}
+
+								.col-1 			{	max-width: 100%;
+													padding-right: 0px;		}	
+
+								.col-2 			{	max-width: 100%;
+													margin-bottom: 20px;	}
+
+								.part-1 		{	max-width: 100%;		}	
+
+								body {	margin: 20px 0px 60px 0px;	}
+
+								h1	{	font-size: 4em;				}
+
+								h2	{	font-size: 1.8em;			}	
+
+								h3  {	font-size: 1.3em;			}
+							}
+
+
+
